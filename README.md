@@ -11,8 +11,20 @@ This is where your description should go. Limit it to a paragraph or two. Consid
 
 You can install the package via composer:
 
+Inside your `composer.json` add:
+```json
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/joecharika/filament-custom-forms"
+        }
+    ]
+}
+```
+Then run:
 ```bash
-composer require rupadana/filament-custom-forms
+composer require joecharika/filament-custom-forms
 ```
 
 ## Usage
